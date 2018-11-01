@@ -8,12 +8,16 @@ import Nodes from './pages/Nodes';
 
 import Transactions from './pages/Transactions';
 
+import Contracts from './pages/Contracts';
+import Chains from './pages/Chains';
+import Blocks from './pages/Blocks';
+import Dashboard from './pages/Dashboard';
 import SourireT from './layouts/SourireT/src';
 const routerConfig = [
   {
     path: '/',
     layout: SourireT,
-    component: Home,
+    component: Dashboard,
   },
   {
     path: '/nodes',
@@ -25,6 +29,22 @@ const routerConfig = [
     layout: SourireT,
     component: Transactions,
   },
+  {
+    path: '/contracts',
+    layout: SourireT,
+    component: Contracts,
+  },
+  {
+    path: '/channels',
+    layout: SourireT,
+    component: Chains,
+  },
+  {
+    path: '/blocks',
+    layout: SourireT,
+    component: Blocks,
+  },
+ 
 ];
 
 export default routerConfig;

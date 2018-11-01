@@ -25,6 +25,26 @@ const asideMenuConfig = [
     path: '/transactions',
     icon: 'home',
   },
+  {
+    name: 'CONTRACTS',
+    path: '/contracts',
+    icon: 'home',
+  },
+  {
+    name: 'CHAINS',
+    path: '/chains',
+    icon: 'home',
+  },
+  {
+    name: 'BLOCKS',
+    path: '/blocks',
+    icon: 'home',
+  },
+  {
+    name: 'dashboard',
+    path: '/dashboard',
+    icon: 'home',
+  },
 ];
 
 export { headerMenuConfig, asideMenuConfig };
