@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom';
 import router from './router';
 import 'bootstrap/dist/css/bootstrap.css'
+import './main.css'
 const ICE_CONTAINER = document.getElementById('ice-container');
 
 if (!ICE_CONTAINER) {

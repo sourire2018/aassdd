@@ -5,7 +5,7 @@ import { Grid, Icon } from '@icedesign/base';
 const { Row, Col } = Grid;
 
 const mockData = () => {
-  return Array.from({ length: 10 }).map((item, index) => {
+  return Array.from({ length: 100 }).map((item, index) => {
     return {
       name: '@ice/builder-miniapp',
       value: index + 1,
@@ -28,7 +28,7 @@ export default class InfiniteCard extends Component {
   render() {
     return (
       <IceContainer>
-        <h4 style={styles.cardTitle}>构建器更新动态</h4>
+        <h4 style={styles.cardTitle}>{mockData().length}</h4>
         <Row gutter="10" style={{ overflow: 'scroll' }}>
           {mockData().map((item, index) => {
             return (
