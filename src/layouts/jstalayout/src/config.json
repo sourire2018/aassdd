@@ -1,6 +1,6 @@
 {
 	"header" : [
-		 "nodesview", "blocksview", "transactionsview" , "chainview" , "contractview" , "language" , "github"
+		 "nodesview","blocksview",  "transactionsview" , "chainview" , "contractview" , "language" , "github"
 	],
 	"dashboardview" : [
 		"timelinestream" ,"dashboardview_middle"
